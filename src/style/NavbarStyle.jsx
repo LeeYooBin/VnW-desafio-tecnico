@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Navbar = styled.nav`
-    width: 100%;
+    max-width: 100%;
 `
 
 export const StyledBurger = styled.div`
@@ -10,15 +10,15 @@ export const StyledBurger = styled.div`
     display: flex;
     justify-content: space-around;
     flex-flow: column nowrap;
-    position: absolute;
-    top: 15px;
+    position: fixed;
+    top: 1.6%;
     right: 5%;
     z-index: 20;
 
     div {
         width: 2rem;
         height: 0.25rem;
-        background-color: ${({ open }) => open ? '#ccc' : '#333'};
+        background-color: ${({ open }) => open ? '#FFAC2D' : '#ccc'};
         border-radius: 10px;
         transform-origin: 1px;
         transition: all 0.3s linear;
@@ -42,30 +42,31 @@ export const StyledBurger = styled.div`
     }
 `;
 
-export const Ul = styled.ul`
-    list-style: none;
+export const Menu = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     padding: 15%;
-    background-color: #0D2538;
+    background-color: #0F2260;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 100vh;
-    width: 60vw;
+    width: 105vw;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
 
     a{
         text-decoration: none;
         color: #FFF;
+        font-weight: 300;
     }
 
     @media (min-width: 920px) {
-        right: 65%;
+        position: absolute;
+        right: 67%;
         top: 3.7%;
         padding: 0;
         width: 45%;
@@ -73,9 +74,19 @@ export const Ul = styled.ul`
         font-weight: 700;
         height: auto;
         flex-direction: row;
-        
+
         a{
-            color: #000;
+            width: 8vw;
+            padding: 0.1%;
+            text-align: center;
+            border: 1px transparent solid;
+            border-radius: 15px;
+
+            &:hover{
+                border: 1px #FFAC2D solid;
+            }
         }
     }
 `;
+
+
