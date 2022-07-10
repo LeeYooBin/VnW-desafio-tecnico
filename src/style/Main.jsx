@@ -28,20 +28,15 @@ export const H1 = styled.h1`
         font-weight: 200;
     }
 
-    @media screen and (min-width: 700px){
+    @media screen and (min-width: 500px){
         width: 85%;
         font-size: 2em;
         margin-left: 10vw;
     }
 
     @media screen and (min-width: 800px){
-        width: 80%;
-        font-size: 1.8em;
-    }
-
-    @media screen and (min-width: 1000px){
         margin-top: 15vh;
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     @media screen and (min-width: 1281px){
@@ -62,23 +57,18 @@ export const Sub = styled.div`
     justify-content: space-around;
 
     @media screen and (min-width: 500px){
-        width: 70%;
-    }
-
-    @media screen and (min-width: 700px){
-        width: 55%;
-        height: 14vh;
+        width: 65%;
+        height: 20vh;
         margin-left: 10vw;
     }
 
-    @media screen and (min-width: 800px){
+    @media screen and (min-width: 750px){
         height: 13vh;
     }
 
     @media screen and (min-width: 1000px){
-        margin-left: 10vw;
         width: 45%;
-        height: 23vh;
+        height: 24vh;
         padding: 1.5% 2.5% ;
     }
 
@@ -105,10 +95,6 @@ export const Dots = styled.div`
     }
 
     @media screen and (min-width: 1000px){
-        width: 12%;
-    }
-
-    @media screen and (min-width: 1281px){
         width: 10%;
     }
 `;
@@ -119,15 +105,15 @@ export const SubH2 = styled.h2`
     color: #0F2260;
 
     @media screen and (min-width: 500px){
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
-    @media screen and (min-width: 800px){
-        font-size: 1.3em;
+    @media screen and (min-width: 700px){
+        font-size: 1.6em;
     }
 
-    @media screen and (min-width: 1000px){
-        font-size: 1.5em;
+    @media screen and (min-width: 900px){
+        font-size: 1.8em;
     }
 
     @media screen and (min-width: 1200px){
@@ -151,18 +137,14 @@ export const Line = styled.hr`
 `;
 
 export const SubP = styled.p`
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
 
-    @media screen and (min-width: 800px){
-        font-size: 1.2em;
+    @media screen and (min-width: 700px){
+        font-size: 1em;
     }
 
-    @media screen and (min-width: 1000px){
-        font-size: 0.8em;
-    }
-
-    @media screen and (min-width: 1281px){
+    @media screen and (min-width: 1200px){
         font-size: 1.2em;
     }
 `;
@@ -180,19 +162,15 @@ export const Link = styled.p`
         font-weight: 300;
     }
 
-    @media screen and (min-width: 700px){
+    @media screen and (min-width: 500px){
         margin-left: 10vw;
     }
 
-    @media screen and (min-width: 800px){
-        font-size: 1.2em;
+    @media screen and (min-width: 700px){
+        font-size: 1em;
     }
 
-    @media screen and (min-width: 1000px){
-        font-size: 0.8em;
-    }
-
-    @media screen and (min-width: 1281px){
+    @media screen and (min-width: 1200px){
         font-size: 1.2em;
     }
 `;

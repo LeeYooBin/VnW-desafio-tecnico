@@ -18,7 +18,7 @@ export const StyledBurger = styled.div`
     div {
         width: 2rem;
         height: 0.25rem;
-        background-color: ${({ open }) => open ? '#FFAC2D' : '#ccc'};
+        background-color: ${({ open }) => open ? '#ccc' : '#FFAC2D'};
         border-radius: 10px;
         transform-origin: 1px;
         transition: all 0.3s linear;
@@ -46,16 +46,16 @@ export const Menu = styled.nav`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15%;
-    background-color: #0F2260;
+    background-color: #2D3142;
     position: fixed;
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 105vw;
-    padding-top: 3.5rem;
+    height: 60vh;
+    width: 50vw;
+    padding-top: 4rem;
     transition: transform 0.3s ease-in-out;
 
     a{

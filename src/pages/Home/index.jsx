@@ -1,4 +1,4 @@
-import * as S from '../../style/Style';
+import * as S from '../../style/Home';
 import Main from '../../components/Main';
 import About from '../../components/About';
 

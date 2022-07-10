@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import * as S from '../../style/NavbarStyle';
+import * as S from '../../style/Navbar';
 
 export default function Navbar() {
     

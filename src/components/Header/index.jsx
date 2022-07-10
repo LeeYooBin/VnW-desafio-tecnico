@@ -1,4 +1,4 @@
-import * as S from '../../style/Style';
+import * as S from '../../style/Header';
 import Navbar from "../Navbar";
 import logo from '../../assets/img/logo.svg';
 
