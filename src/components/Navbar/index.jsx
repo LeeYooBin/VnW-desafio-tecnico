@@ -15,10 +15,10 @@ export default function Navbar() {
               </S.StyledBurger>
               <S.Menu open={open}>
                   <a href="#about" onClick={() => setOpen(!open)}>Sobre</a>
-                  <a href="#">Formação</a>
-                  <a href="#">Equipe</a>
-                  <a href="#">Eventos</a>
-                  <a href="#">Contatos</a>
+                  <a href="#form" onClick={() => setOpen(!open)}>Formação</a>
+                  <a href="#" onClick={() => setOpen(!open)}>Equipe</a>
+                  <a href="#" onClick={() => setOpen(!open)}>Eventos</a>
+                  <a href="#" onClick={() => setOpen(!open)}>Contatos</a>
               </S.Menu>
           </S.Navbar>
       </>
