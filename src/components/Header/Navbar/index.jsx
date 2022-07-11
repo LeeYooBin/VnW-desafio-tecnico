@@ -18,9 +18,9 @@ export default function Navbar() {
               <S.Menu open={open}>
                   <a href="#about" onClick={() => close(open)}>Sobre</a>
                   <a href="#form" onClick={() => close(open)}>Formação</a>
-                  <a href="#" onClick={() => close(open)}>Equipe</a>
-                  <a href="#" onClick={() => close(open)}>Eventos</a>
-                  <a href="#" onClick={() => close(open)}>Contatos</a>
+                  <a href="#team" onClick={() => close(open)}>Equipe</a>
+                  <a href="#events" onClick={() => close(open)}>Eventos</a>
+                  <a href="#footer" onClick={() => close(open)}>Contatos</a>
               </S.Menu>
           </S.Navbar>
       </>

@@ -68,8 +68,8 @@ export const Article = styled.article`
     }
 `;
 
-export const TitleStyle = {
+export const TitleStyle = window.screen.width >= 920 ? {
     'margin-bottom': '7vh',
     'text-align': 'left',
     'margin-left': '12%'
-}
+} : {};

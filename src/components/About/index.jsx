@@ -7,7 +7,7 @@ export default function About(){
         <>
             <S.About id='about'>
                 <S.ImageWrapper>
-                    <S.VnwImage src={vnw} alt="" />
+                    <a href={vnw}><S.VnwImage src={vnw} alt="" /></a>
                 </S.ImageWrapper>
                 <S.AboutArticle>
                     <G.Title>Sobre o Vai na Web</G.Title>

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Title = styled.h1`
     font-size: 1.8em;
-    text-align: center;
     color: #0F2260;
     font-weight: 800;
-
+    text-align: center;
+    
     @media screen and (min-width: 920px){
         font-size: 2.5em;
     }

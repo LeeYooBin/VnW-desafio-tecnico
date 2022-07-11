@@ -8,9 +8,9 @@ export default function Form(){
         <>
             <S.Form id='form'>
                 <S.LeftWrapper>
-                    <G.Title style={window.screen.width >= 920 ? S.TitleStyle : {}}>Formação</G.Title>
+                    <G.Title style={S.TitleStyle}>Formação</G.Title>
                     <S.TextArea>
-                        <S.PcImage src={pc} alt=""/>
+                    <S.PcImage src={pc} alt=""/>
                         <S.Article>
                             <G.SubTitle>FRONT-END</G.SubTitle>
                             <G.Text>
