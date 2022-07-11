@@ -1,5 +1,5 @@
-import * as G from '../../style/Generics';
-import * as S from '../../style/Form';
+import * as G from '../../assets/style/Style';
+import * as S from './FormStyle';
 import pc from '../../assets/img/Grupo 11148.svg';
 import img from '../../assets/img/Imagem 1@2x.png';
 

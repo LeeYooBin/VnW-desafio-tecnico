@@ -65,6 +65,7 @@ export const Menu = styled.nav`
     }
 
     @media (min-width: 920px) {
+        transform: translateX(100%);
         position: absolute;
         right: 67%;
         top: 3.7%;

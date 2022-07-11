@@ -1,6 +1,6 @@
 import vnw from '../../assets/img/vnw.png'
-import * as S from '../../style/About';
-import * as G from '../../style/Generics';
+import * as G from '../../assets/style/Style';
+import * as S from './AboutStyle';
 
 export default function About(){
     return(

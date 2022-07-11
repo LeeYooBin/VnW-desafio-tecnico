@@ -1,5 +1,5 @@
 import Header from '../Header';
-import * as S from '../../style/Main';
+import * as S from './MainStyle';
 
 export default function Main(){
     return(

@@ -1,5 +1,5 @@
-import * as S from '../../style/Header';
-import Navbar from "../Navbar";
+import * as S from './HeaderStyle';
+import Navbar from "./Navbar";
 import logo from '../../assets/img/logo.svg';
 
 export default function Header(){
