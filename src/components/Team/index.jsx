@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import * as G from '../../style/Style';
 import * as S from './TeamStyle';
 import { GrFormSearch } from 'react-icons/gr';
-import TeamData from '../../TeamData';
+import TeamData from './TeamData';
 
 export default function Team(){
     const [team] = useState(TeamData);

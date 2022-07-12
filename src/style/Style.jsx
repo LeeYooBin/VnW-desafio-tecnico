@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import back from '../assets/img/Grupo 11153@2x.jpg';
 
 export const Title = styled.h1`
     font-size: 1.8em;

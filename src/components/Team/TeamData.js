@@ -1,18 +1,18 @@
-import photo1 from './assets/img/Fotos Equipe Técnica/photo1.jpg';
-import photo2 from './assets/img/Fotos Equipe Técnica/photo2.jpg';
-import photo3 from './assets/img/Fotos Equipe Técnica/photo3.jpg';
-import photo4 from './assets/img/Fotos Equipe Técnica/photo4.jpg';
-import photo5 from './assets/img/Fotos Equipe Técnica/photo5.jpg';
-import photo6 from './assets/img/Fotos Equipe Técnica/photo6.jpg';
-import photo7 from './assets/img/Fotos Equipe Técnica/photo7.jpg';
-import photo8 from './assets/img/Fotos Equipe Técnica/photo8.jpg';
-import photo9 from './assets/img/Fotos Equipe Técnica/photo9.jpg';
-import photo10 from './assets/img/Fotos Equipe Técnica/photo10.jpg';
-import photo11 from './assets/img/Fotos Equipe Técnica/photo11.jpg';
-import photo12 from './assets/img/Fotos Equipe Técnica/photo12.jpg';
-import photo13 from './assets/img/Fotos Equipe Técnica/photo13.jpg';
-import photo14 from './assets/img/Fotos Equipe Técnica/photo14.jpg';
-import photo15 from './assets/img/Fotos Equipe Técnica/photo15.jpg';
+import photo1 from '../../assets/img/Fotos Equipe Técnica/photo1.jpg';
+import photo2 from '../../assets/img/Fotos Equipe Técnica/photo2.jpg';
+import photo3 from '../../assets/img/Fotos Equipe Técnica/photo3.jpg';
+import photo4 from '../../assets/img/Fotos Equipe Técnica/photo4.jpg';
+import photo5 from '../../assets/img/Fotos Equipe Técnica/photo5.jpg';
+import photo6 from '../../assets/img/Fotos Equipe Técnica/photo6.jpg';
+import photo7 from '../../assets/img/Fotos Equipe Técnica/photo7.jpg';
+import photo8 from '../../assets/img/Fotos Equipe Técnica/photo8.jpg';
+import photo9 from '../../assets/img/Fotos Equipe Técnica/photo9.jpg';
+import photo10 from '../../assets/img/Fotos Equipe Técnica/photo10.jpg';
+import photo11 from '../../assets/img/Fotos Equipe Técnica/photo11.jpg';
+import photo12 from '../../assets/img/Fotos Equipe Técnica/photo12.jpg';
+import photo13 from '../../assets/img/Fotos Equipe Técnica/photo13.jpg';
+import photo14 from '../../assets/img/Fotos Equipe Técnica/photo14.jpg';
+import photo15 from '../../assets/img/Fotos Equipe Técnica/photo15.jpg';
 
 const TeamData = [
     {

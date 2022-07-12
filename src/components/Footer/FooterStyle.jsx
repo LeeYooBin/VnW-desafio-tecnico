@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import back from '../../assets/img/Grupo 11153.jpg';
-
 
 export const Footer = styled.footer`
-    background-image: url(https://lh3.googleusercontent.com/VtPHOv0WYiMfjQVhnfTJik8kMItXAL69J2nUI9ZVhye4kAH2YR3VdhRK2ukGSluDdlb3pw=s170);
+    background-image: url(https://github.com/LeeYooBin/VnW-desafio-tecnico/blob/main/src/assets/img/Grupo%2011153@2x.jpg?raw=true);
     background-size: cover;
     background-position: 100%;
     margin-top: 5vh;
