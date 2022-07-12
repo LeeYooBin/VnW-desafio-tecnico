@@ -57,6 +57,7 @@ export const Menu = styled.nav`
     width: 50vw;
     padding-top: 4rem;
     transition: transform 0.3s ease-in-out;
+    z-index: 15;
 
     a{
         text-decoration: none;

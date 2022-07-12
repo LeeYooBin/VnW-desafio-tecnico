@@ -6,7 +6,7 @@ export default function Header(){
     return(
         <>
             <S.Header>
-                <a href="#"><S.Logo src={logo} alt="" /></a>
+                <a href="#home"><S.Logo src={logo} alt="" /></a>
                 <Navbar />
             </S.Header>
         </>
