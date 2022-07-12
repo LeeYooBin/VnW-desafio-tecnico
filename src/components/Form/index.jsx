@@ -1,4 +1,4 @@
-import * as G from '../../assets/style/Style';
+import * as G from '../../style/Style';
 import * as S from './FormStyle';
 import pc from '../../assets/img/Grupo 11148.svg';
 import img from '../../assets/img/Imagem 1@2x.png';
@@ -10,7 +10,7 @@ export default function Form(){
                 <S.LeftWrapper>
                     <G.Title style={S.TitleStyle}>Formação</G.Title>
                     <S.TextArea>
-                    <S.PcImage src={pc} alt=""/>
+                    <S.PcImage src={pc} alt="pc"/>
                         <S.Article>
                             <G.SubTitle>FRONT-END</G.SubTitle>
                             <G.Text>
@@ -22,7 +22,7 @@ export default function Form(){
                     </S.TextArea>
 
                     <S.TextArea>
-                        <S.PcImage src={pc} alt=""/>
+                        <S.PcImage src={pc} alt="pc"/>
                         <S.Article>
                             <G.SubTitle>BACK-END</G.SubTitle>
                             <G.Text>

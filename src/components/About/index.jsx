@@ -1,5 +1,5 @@
 import vnw from '../../assets/img/vnw.png'
-import * as G from '../../assets/style/Style';
+import * as G from '../../style/Style';
 import * as S from './AboutStyle';
 
 export default function About(){
@@ -7,7 +7,7 @@ export default function About(){
         <>
             <S.About id='about'>
                 <S.ImageWrapper>
-                    <a href={vnw}><S.VnwImage src={vnw} alt="" /></a>
+                    <a href={vnw}><S.VnwImage src={vnw} alt="Vai na Web" /></a>
                 </S.ImageWrapper>
                 <S.AboutArticle>
                     <G.Title>Sobre o Vai na Web</G.Title>

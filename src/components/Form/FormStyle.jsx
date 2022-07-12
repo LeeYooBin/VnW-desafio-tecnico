@@ -7,6 +7,7 @@ export const Form = styled.section`
     display: flex;
 
     @media screen and (min-width: 920px){
+        margin-top: 10vh;
         padding: 0;
         justify-content: center;
         align-items: center;

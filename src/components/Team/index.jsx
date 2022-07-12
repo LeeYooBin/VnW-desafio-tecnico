@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import * as G from '../../assets/style/Style';
+import * as G from '../../style/Style';
 import * as S from './TeamStyle';
 import { GrFormSearch } from 'react-icons/gr';
-import './style.css';
 import TeamData from '../../TeamData';
 
 export default function Team(){
